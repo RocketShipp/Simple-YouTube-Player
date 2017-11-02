@@ -1,0 +1,40 @@
+body {
+  background-image: url("../img/clouds.jpg"); }
+
+#player-container {
+  height: 100vh;
+  text-align: center; }
+  #player-container .inputCol {
+    text-align: center; }
+    #player-container .inputCol .input-holder {
+      position: relative;
+      max-width: 100%;
+      margin: auto; }
+      #player-container .inputCol .input-holder #searchBar, #player-container .inputCol .input-holder #searchBar:focus {
+        outline: none;
+        border: 1px solid black;
+        box-shadow: none;
+        width: 100%; }
+      #player-container .inputCol .input-holder #results {
+        max-height: 25vh;
+        overflow-y: scroll;
+        max-width: 100%; }
+        #player-container .inputCol .input-holder #results .ytResult {
+          padding: 0;
+          margin: 0;
+          max-width: 100%;
+          border: none;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+          transition: 0.1s; }
+          #player-container .inputCol .input-holder #results .ytResult:hover {
+            background: rgba(255, 255, 255, 0.5); }
+          #player-container .inputCol .input-holder #results .ytResult .resultTitle {
+            font-weight: bold; }
+        #player-container .inputCol .input-holder #results .closeButton {
+          width: 100%; }
+  #player-container button {
+    outline: none;
+    border: none;
+    box-shadow: none; }
+
+/*# sourceMappingURL=main.css.map */

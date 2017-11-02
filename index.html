@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ad-Free Youtube Player</title>
+    <meta name="description" content="This is a simple Youtube video playing app" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <div id="player-container" class="container">
+      <div class="row">
+        <div class="col-sm-12 inputCol">
+          <h3>Ad-Free Youtube Player</h3>
+          <div class="input-holder">
+            <div class="input-group">
+              <input id="searchBar" class="form-control" type="text" value="">
+              <span class="input-group-btn">
+                <button type="button" id="searchBtn" class="btn btn-success">Go</button>
+              </span>
+            </div>
+            <div id="results">
+              <div id="items">
+              </div>
+              <button class="btn btn-danger closeButton">Hide Results</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="embedCol" class="col-sm-12">
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
